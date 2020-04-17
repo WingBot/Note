@@ -124,8 +124,8 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32;01m\]\u\[\033[00;31;01m\]:\[
 export EDITOR='gedit -w'
 export TURTLEBOT_3D_SENSOR=asus_xtion_pro
 export ROS_HOSTNAME=arsl.local
-export ROS_MASTER_URI=http://v200.local:11311
-#export ROS_MASTER_URI=http://arsl.local:11311
+#export ROS_MASTER_URI=http://v200.local:11311
+export ROS_MASTER_URI=http://arsl.local:11311
 source /opt/ros/kinetic/setup.bash
 source ~/catkin_ws_ios/devel_isolated/setup.bash
 source ~/catkin_ws/devel/setup.bash
